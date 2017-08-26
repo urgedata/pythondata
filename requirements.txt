@@ -33,7 +33,6 @@ pandocfilters==1.4.2
 pathlib2==2.3.0
 pexpect==4.2.1
 pickleshare==0.7.4
-pkg-resources==0.0.0
 prompt-toolkit==1.0.15
 ptyprocess==0.5.2
 Pygments==2.2.0
