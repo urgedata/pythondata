@@ -1,16 +1,15 @@
 from flask import Flask
-from newspaper import Article
+from flask_restful import Resource, Api
 
 app = Flask(__name__)
+api = Api(app)
 
-@app.route('/articles/')
-def get_articles():
-    url = 'http://pythondata.com/stock-market-forecasting-with-prophet/'
-    article_content = Article(url, language='en')
-    article_content.download()
-    article_content.parse()
-    print article_content.text[:150]
-    return article_content.text
+
+class hello(Resource):
+    def get(self):
+       return "Hello World"
+
+api.add_resource(hello, '/hello')
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5001)
