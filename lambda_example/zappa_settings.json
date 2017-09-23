@@ -1,0 +1,9 @@
+{
+    "dev": {
+        "app_function": "api.app", 
+        "profile_name": "default", 
+        "s3_bucket": "zappa-lambda-example-edb",
+        "aws_region": "us-east-1",
+        "runtime": "python2.7"
+    }
+}
