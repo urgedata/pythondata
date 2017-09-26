@@ -1,6 +1,0 @@
-pandas
-mysql-python
-zappa
-sklearn 
-scipy
-matplotlib
