@@ -56,4 +56,6 @@ webencodings==0.5.1
 widgetsnbextension==3.0.2
 scikit-learn==0.19.1
 scipy==1.0.0
-ml_metrics == 0.1.4
+ml_metrics==0.1.4
+pydlm==0.1.1.9
+pyflux==0.4.15
