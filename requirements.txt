@@ -43,6 +43,7 @@ pytz==2017.2
 pyzmq==16.0.2
 qtconsole==4.3.1
 scandir==1.5
+sqlalchemy 
 simplegeneric==0.8.1
 singledispatch==3.4.0.3
 six==1.10.0
