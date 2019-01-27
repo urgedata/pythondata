@@ -8,3 +8,5 @@ env/lib/python2\.7/
 env/local/
 
 env/
+
+\.DS_Store
